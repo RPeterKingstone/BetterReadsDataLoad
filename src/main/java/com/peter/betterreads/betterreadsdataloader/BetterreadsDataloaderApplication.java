@@ -56,6 +56,7 @@ public class BetterreadsDataloaderApplication {
 	}
 
 	public void initAuthors(){
+		System.out.println("NOW ADDED TO CHECK GIT COMMIT");
 		Path path = Paths.get(authorDump);
 		try {
 			Stream<String> lines = Files.lines(path);
